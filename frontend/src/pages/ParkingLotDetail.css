@@ -1,0 +1,154 @@
+.parking-lot-detail {
+  padding: 100px 20px 40px;
+  min-height: 100vh;
+}
+
+.lot-header {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.lot-header h1 {
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.address {
+  color: #7f8c8d;
+  margin-bottom: 20px;
+}
+
+.lot-stats {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-label {
+  font-size: 14px;
+  color: #7f8c8d;
+  margin-bottom: 5px;
+}
+
+.stat-value {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.slots-section {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.slots-header {
+  margin-bottom: 20px;
+}
+
+.slots-header h2 {
+  margin-bottom: 5px;
+  color: #2c3e50;
+}
+
+.manager-note {
+  color: #667eea;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.slots-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.slot-card {
+  border: 2px solid;
+  border-radius: 8px;
+  padding: 15px;
+  transition: transform 0.3s;
+}
+
+.slot-card:hover {
+  transform: translateY(-3px);
+}
+
+.slot-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.slot-header h3 {
+  margin: 0;
+  color: #2c3e50;
+}
+
+.slot-status {
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: white;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+.slot-type {
+  color: #7f8c8d;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.btn-small {
+  padding: 6px 12px;
+  font-size: 14px;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.modal-content h2 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.modal-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.modal-buttons button {
+  flex: 1;
+}
+
