@@ -1,0 +1,19 @@
+{
+    "name": "test",
+    "version": "1.0.0",
+    "description": "A full-stack MERN application for real-time parking slot availability management. This system helps drivers find parking spaces efficiently while enabling parking facility managers to monitor occupancy dynamically.",
+    "main": "test-integration.js",
+    "scripts": {
+        "dev": "concurrently \"npm run server\" \"npm run client\"",
+        "server": "cd backend && npm run dev",
+        "client": "cd frontend && npm start",
+        "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "dependencies": {
+        "concurrently": "^9.2.1"
+    }
+}
